@@ -7,6 +7,7 @@ function FetchDataFromApi() {
   const[buttonClick,setButtonClick]=useState(1)
 
   const API_URL = `http://jsonplaceholder.typicode.com/posts/${id}`;
+  
 
     useEffect(()=>{
       axios.get(API_URL)
