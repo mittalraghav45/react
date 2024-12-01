@@ -8,6 +8,7 @@ import AddNumber from './components/AddNumber';
 import FetchDataFromApi from './components/FetchDataFromApi';
 import ContextApiOne from './components/ContextApiOne';
 import React from 'react';
+import CounterOne from './components/CounterOne';
 
 
 export const UserContext = React.createContext();
@@ -21,9 +22,10 @@ function App() {
   // <AddNumber/>
   // <UpdateTitle/>
   // <FetchDataFromApi/> */}
-  <UserContext.Provider value={'Raghav'}>
+  {/* <UserContext.Provider value={'Raghav'}>
     <ContextApiOne/>
-  </UserContext.Provider>
+  </UserContext.Provider> */}
+  <CounterOne/>
   </div>
   )
 }
