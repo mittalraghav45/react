@@ -9,6 +9,7 @@ import FetchDataFromApi from './components/FetchDataFromApi';
 import ContextApiOne from './components/ContextApiOne';
 import React from 'react';
 import CounterOne from './components/CounterOne';
+import CounterTwoReducer from './components/CounterTwoReducer';
 
 
 export const UserContext = React.createContext();
@@ -25,7 +26,8 @@ function App() {
   {/* <UserContext.Provider value={'Raghav'}>
     <ContextApiOne/>
   </UserContext.Provider> */}
-  <CounterOne/>
+  {/* <CounterOne/> */}
+  <CounterTwoReducer/>
   </div>
   )
 }
