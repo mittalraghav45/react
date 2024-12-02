@@ -9,8 +9,10 @@ import FetchDataFromApi from './components/FetchDataFromApi';
 import ContextApiOne from './components/ContextApiOne';
 import React from 'react';
 import CounterOne from './components/CounterOne';
-import CounterTwoReducer from './components/CounterTwoReducer';
-
+// import CounterTwoReducer from './components/CounterTwoReducer';
+import ReducerTwo from './ReducerTwo';
+import FetchDataUsingReducer from './components/FetchDataUsingReducer';
+import ParentComponent from './components/ParentComponent';
 
 export const UserContext = React.createContext();
 export const channelContext = React.createContext();
@@ -27,7 +29,9 @@ function App() {
     <ContextApiOne/>
   </UserContext.Provider> */}
   {/* <CounterOne/> */}
-  <CounterTwoReducer/>
+  {/* <ReducerTwo/> */}
+  {/* <FetchDataUsingReducer/> */}
+  <ParentComponent/>
   </div>
   )
 }
