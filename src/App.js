@@ -13,7 +13,7 @@ import CounterOne from './components/CounterOne';
 import ReducerTwo from './ReducerTwo';
 import FetchDataUsingReducer from './components/FetchDataUsingReducer';
 import ParentComponent from './components/ParentComponent';
-
+import ParentComponentMemo from './components/ParentComponentMemo';
 export const UserContext = React.createContext();
 export const channelContext = React.createContext();
 
@@ -31,7 +31,8 @@ function App() {
   {/* <CounterOne/> */}
   {/* <ReducerTwo/> */}
   {/* <FetchDataUsingReducer/> */}
-  <ParentComponent/>
+  <ParentComponentMemo/>
+  {/* <MemoComp name={Raghav}/> */}
   </div>
   )
 }
