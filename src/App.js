@@ -14,6 +14,13 @@ import ReducerTwo from './ReducerTwo';
 import FetchDataUsingReducer from './components/FetchDataUsingReducer';
 import ParentComponent from './components/ParentComponent';
 import ParentComponentMemo from './components/ParentComponentMemo';
+import UseRefHook from './components/UseRefHook';
+
+
+
+
+
+
 export const UserContext = React.createContext();
 export const channelContext = React.createContext();
 
@@ -31,8 +38,9 @@ function App() {
   {/* <CounterOne/> */}
   {/* <ReducerTwo/> */}
   {/* <FetchDataUsingReducer/> */}
-  <ParentComponentMemo/>
+  {/* <ParentComponentMemo/> */}
   {/* <MemoComp name={Raghav}/> */}
+  <UseRefHook/>
   </div>
   )
 }
